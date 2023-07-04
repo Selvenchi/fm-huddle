@@ -1,0 +1,27 @@
+body {
+  box-sizing: border-box;
+  position: relative;
+  z-index: -1000;
+  background-color: var(--clr-dark-cyan);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --clr-pink: hsl(322, 100%, 66%);
+  --clr-pale-cyan: hsla(192, 100%, 96%, 0.74);
+  --clr-bg: hsl(192, 100%, 96%);
+  --clr-dark-cyan: hsl(192, 100%, 9%);
+  --clr-greyish-blue: hsl(208, 11%, 55%);
+
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+
+  --ff-open-sans: "Open Sans";
+  --ff-poppins: "Poppins";
+}
